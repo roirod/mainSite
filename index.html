@@ -1,12 +1,16 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <title>AroaDen | Programa de gestión de clínica dental</title>
-  <meta name="description" content="Programa de gestión de clínica dental">
-  <meta name="og:title" property="og:title" content="AroaDen | Programa de gestión de clínica dental">
+  <title>AroaDen | software clínica dental</title>
+  <meta name="description" content="software clínica dental gratis, gratuito">
+  <meta name="og:title" property="og:title" content="AroaDen | software clinica dental gratis">
   <meta name="robots" content="index, follow"> 
+  <meta name="keywords" content="AroaDen, software, gratuito, gratis, clinica dental">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta name="google-site-verification" content="yTuEB_CJB1YfPwl4Tm1TFiweU8jSYnPqHRhuLJLw2yU" />
+
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/main.css">
   <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
@@ -14,7 +18,7 @@
   <script src="js/bootstrap.min.js"></script>
 </head>
 
-<body id="top">
+<body id="top" data-spy="scroll" data-target=".navbar" data-offset="70">
 
   <nav class="navbar navbar-inverse navbar-fixed-top">
     <div class="container">
@@ -25,64 +29,122 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="#top">AroaDen</a>
+        <a class="navbar-brand" href="#top" title="Inicio">AroaDen</a>
       </div>
 
       <div class="collapse navbar-collapse" id="collapse">
-        <ul class="nav navbar-nav">
+        <ul class="nav navbar-nav navbar-right">
           <li><a href="#Características">Características</a></li>        
           <li><a href="#Videos">Videos</a></li>
           <li><a href="#Github">Github</a></li>
           <li><a href="#Contacto">Contacto</a></li>
+          <li>
+            <a href="https://www.patreon.com/RoiRodrigo" target="_blank">
+              Donar €
+            </a>
+          </li>
         </ul>
       </div>
 
     </div>
   </nav>
 
-  <div class="martopbo50">
-  </div>
-
-  <div class="container-fluid bg-Green martopbo100 padtopbo80">
+  <div class="container-fluid bg-Green martopbo80 padtopbo150">
     <div class="container">
 
       <div class="row">
-        <div class="col-sm-12">
+
+        <div class="col-sm-12 col-md-6 col-lg-4">
           <h1>
             <span class="label label-default">AroaDen</span>
           </h1>
-          <h3>
-            Programa de gestión de clínica dental
-          </h3>
-        </div>
-      </div>
 
-      <div class="mar20">
-      </div>
+          <p class="fonsi20">
+            Software de clínica dental 
+          </p>
 
-      <div class="row">
+          <div class="col-xs-12 bgblacktrans newscont pad20 martopbo30">
+            <p class="label label-warning pad6 fonsi14"> 
+              Descarga última versión
+            </p>
+            <br>
 
-        <div class="col-sm-4">
-          <h4>
-            login
-          </h4>
-           <img src="img/login.jpg" alt="login" class="responsive"> 
-        </div>
+            <p class="fonsi14 pad6">
+              <a href="https://github.com/roirod/AroaDen/archive/v1.5.zip">
+                roirod/AroaDen/archive/v1.5.zip
+              </a>
+            </p>
+          </div>
 
-        <div class="col-sm-4">
-          <h4>
-            pacientes
-          </h4>
-           <img src="img/pacientes.jpg" alt="pacientes" class="responsive"> 
         </div>
 
-        <div class="col-sm-4">
-          <h4>
-            citas
-          </h4>          
-           <img src="img/citas.jpg" alt="citas" class="responsive"> 
-        </div>
+        <div class="col-sm-12 col-md-6 col-lg-8 hidden-xs">
 
+          <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+              <li data-target="#myCarousel" data-slide-to="1"></li>
+              <li data-target="#myCarousel" data-slide-to="2"></li>
+              <li data-target="#myCarousel" data-slide-to="3"></li>
+              <li data-target="#myCarousel" data-slide-to="4"></li>
+              <li data-target="#myCarousel" data-slide-to="5"></li>
+            </ol>
+
+            <div class="carousel-inner">
+              <div class="item active">
+                <img src="img/pacientes.webp" alt="pacientes">
+                <div class="carousel-caption">
+                  <p>pacientes</p>
+                </div>
+              </div>
+
+              <div class="item">
+                <img src="img/citas.webp" alt="citas">
+                <div class="carousel-caption">
+                  <p>citas</p>
+                </div>
+              </div>
+
+              <div class="item">
+                <img src="img/facturas.webp" alt="citas">
+                <div class="carousel-caption">
+                  <p>facturas</p>
+                </div>
+              </div>
+
+              <div class="item">
+                <img src="img/empresa.webp" alt="citas">
+                <div class="carousel-caption">
+                  <p>empresa</p>
+                </div>
+              </div>
+
+              <div class="item">
+                <img src="img/pagos.webp" alt="citas">
+                <div class="carousel-caption">
+                  <p>pagos</p>
+                </div>
+              </div>
+
+              <div class="item">
+                <img src="img/usuarios.webp" alt="citas">
+                <div class="carousel-caption">
+                  <p>usuarios</p>
+                </div>
+              </div>
+            </div>
+
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+              <span class="icon-prev"></span>
+              <span class="sr-only fonsi16"> &lt;- </span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+              <span class="icon-next"></span>
+              <span class="sr-only fonsi16"> -&gt; </span>
+            </a>
+          </div>
+
+        </div>
       </div>
 
     </div>
@@ -91,7 +153,7 @@
   <div class="martopbo150">
   </div>
 
-  <div class="container-fluid bg-Green martopbo100 padtopbo80" id="Características">    
+  <div class="container-fluid bg-Green padtopbo80" id="Características">    
     <div class="container">
 
       <div class="row">
@@ -103,28 +165,32 @@
       <div class="mar40">
       </div>
 
-      <div class="row">
-        <div class="col-sm-4 fonsi16">
+      <div class="row bgblacktrans padtopbo10">
+        <div class="col-sm-12 fonsi16">
           <p>
-             Programa de gestión de clínica dental, es gratuíto, puede ser modificado y hay muchos profesionales que lo pueden hacer, no dependes de ninguna empresa, lo cual es una ventaja. 
-          </p>
-          <p>
-            Puedo adaptarlo a tus necesidades.
+             Programa de gestión de clínica dental, es gratuito, puede ser modificado y hay muchos profesionales que lo pueden hacer, no dependes de ninguna empresa, lo cual es una ventaja. Puedo adaptarlo a tus necesidades.
           </p>
           <p>
             Requiere un ordenador dedicado para el servidor, se pueden conectar a éste uno o muchos clientes,
             no tiene coste por licencias.
           </p>
-        </div>
 
-        <div class="col-sm-8">
-          <p class="fonsi16">
+          <p>
             Características principales:
           </p>
 
           <ul class="fonsi15">
             <li>
-              Datos de la Empresa (necesarios para ponerlos en los presupuestos).
+              Datos de la Empresa (necesarios para ponerlos en los presupuestos, facturas, etc.).
+            </li>
+            <li>
+              Listado de usuarios de acceso al programa.
+            </li>
+            <li>
+              Listado de facturas.
+            </li>
+            <li>
+              Listado de pagos pendientes ordenados por los pacientes que más deben.
             </li>
             <li>
               Listado de citas.
@@ -142,13 +208,10 @@
               Listado de servicios (empaste, endodoncia, etc).
             </li>
             <li>
-              Listado de pagos pendientes ordenados por los pacientes que más deben.
-            </li>
-            <li>
               Añadir/editar pacientes, personal, servicios, cargos de personal.
             </li>
             <li>
-              Perfil de paciente: odontograma, listado de presupuestos, subir archivos, listado de tratamientos aplicados, total pagos, datos personales, listado de citas, añadir citas y servicios al paciente.
+              Perfil de paciente: odontograma, listado de presupuestos, listado de facturas, subir archivos, listado de tratamientos aplicados, total pagos, datos personales, listado de citas, añadir citas y servicios al paciente.
             </li>
             <li>
               Perfil de personal: subir archivos, listado de trabajos realizados, datos personales, añadir cargos al personal.
@@ -164,7 +227,7 @@
   <div class="martopbo150">
   </div>
 
-  <div class="container-fluid bg-Green martopbo100 padtopbo80" id="Videos">    
+  <div class="container-fluid bg-Green padtopbo80" id="Videos">    
     <div class="container">
 
       <div class="row">
@@ -176,35 +239,63 @@
       <div class="mar40">
       </div>
 
-      <div class="row">
+      <div class="row bgblacktrans padtopbo10">
 
-        <div class="col-sm-4">
-          <h4>Todos los videos</h4>
-          <p>
-            Enlace a:
+        <div class="col-sm-12">
+          <h4>
             <a href="https://www.youtube.com/channel/UCegtqSZJWwyppeSVovo6RxQ" target="_blank">
               Youtube Channel
             </a>
-          </p>
+          </h4>
+        </div>
+
+        <div class="col-sm-12 martopbo10">
+          <h4>Videos versión 1.5</h4>
         </div>
 
         <div class="col-sm-4">
-          <h4>Pacientes</h4>
+          <h5 class="fonsi16">Citas, Personal, Pagos...</h5>
+          <div class="videoWrapper">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/Kq9Puzli0ZY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </div>
+
+        <div class="col-sm-4">
+          <h5 class="fonsi16">Pacientes</h5>
+          <div class="videoWrapper">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/j091v5ERBFY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </div>
+
+        <div class="col-sm-4">
+          <h5 class="fonsi16">Usuarios</h5>
+          <div class="videoWrapper">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/dTQr606zgKc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </div>
+
+        <br>
+
+        <div class="col-sm-12 martopbo10">
+          <h4>Videos versiones anteriores</h4>
+        </div>
+
+        <div class="col-sm-4">
+          <h5 class="fonsi16">Citas, Personal, Pagos...</h5>
+          <div class="videoWrapper">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/H6Be-HRmsvc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </div>
+
+        <div class="col-sm-4">
+          <h5 class="fonsi16">Pacientes</h5>
           <div class="videoWrapper">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/aMrhkHsn00k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
-        </div>
+        </div>       
 
         <div class="col-sm-4">
-          <h4>Citas, Personal, Pagos...</h4>
-          <div class="videoWrapper">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/H6Be-HRmsvc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-          </div>
-        </div>
-
-        <div class="col-sm-4">
-          <h4>Usuarios</h4>
+          <h5 class="fonsi16">Usuarios</h5>
           <div class="videoWrapper">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/emesonnT2JA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
@@ -218,7 +309,7 @@
   <div class="martopbo150">
   </div>
   
-  <div class="container-fluid bg-Green martopbo100 padtopbo80" id="Github">
+  <div class="container-fluid bg-Green padtopbo80" id="Github">
     <div class="container">
 
       <div class="row">
@@ -230,12 +321,34 @@
       <div class="mar40">
       </div>
 
-      <div class="row">
-        <div class="col-sm-6">
-          <p class="fonsi18">
-            Tienes el código disponible en:
-            <a href="https://github.com/roirod/AroaDen" target="_blank">
-              Github
+      <div class="row bgblacktrans padtopbo10">
+        <div class="col-sm-6 fonsi18">
+          <p>
+            Github:
+            <br>
+            <a class="fonsi14" href="https://github.com/roirod/AroaDen" target="_blank">
+              github.com/roirod/AroaDen
+            </a>
+          </p>
+          <p>
+            Versiones:
+            <br>            
+            <a class="fonsi14" href="https://github.com/roirod/AroaDen/tags" target="_blank">
+              github.com/roirod/AroaDen/tags
+            </a>
+          </p>
+          <p>
+            Ramas:
+            <br>            
+            <a class="fonsi14" href="https://github.com/roirod/AroaDen/branches" target="_blank">
+              github.com/roirod/AroaDen/branches
+            </a>
+          </p>
+          <p>
+            Instalar:
+            <br>            
+            <a class="fonsi14" href="https://github.com/roirod/AroaDen/wiki/Install-AroaDen-v1.5" target="_blank">
+              wiki/Install-AroaDen-v1.5
             </a>
           </p>
         </div>
@@ -248,7 +361,7 @@
               GNU GPL
             </a>
           </p>
-          <p class="fonsi14">
+          <p class="fonsi12">
             La Licencia Pública General de GNU o más conocida por su nombre en inglés GNU General Public License (o simplemente sus siglas en inglés GNU GPL) es una licencia de derecho de autor ampliamente usada en el mundo del software libre y código abierto,6​ y garantiza a los usuarios finales (personas, organizaciones, compañías) la libertad de usar, estudiar, compartir (copiar) y modificar el software. Su propósito es doble: declarar que el software cubierto por esta licencia es libre, y protegerlo (mediante una práctica conocida como copyleft) de intentos de apropiación que restrinjan esas libertades a nuevos usuarios cada vez que la obra es distribuida, modificada o ampliada. Esta licencia fue creada originalmente por Richard Stallman fundador de la Free Software Foundation (FSF) para el proyecto GNU. 
           </p>
         </div>
@@ -261,7 +374,7 @@
   <div class="martopbo150">
   </div>
   
-  <div class="container-fluid bg-Green martopbo100 padtopbo80" id="Contacto">
+  <div class="container-fluid bg-Green padtopbo80" id="Contacto">
     <div class="container">
 
       <div class="row">
@@ -273,7 +386,7 @@
       <div class="mar40">
       </div>
 
-      <div class="row">
+      <div class="row bgblacktrans padtopbo10">
         <div class="col-sm-8">
           <p class="fonsi18">
             <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfOi6yMhFxCv5DVmNAjc8j8GflXZVcNf-xv_pUk-knvM6CHqg/viewform?embedded=true&hl=es" width="100%" height="800" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
@@ -284,15 +397,12 @@
     </div>
   </div>
 
-  <div class="martopbo50">
-  </div>
-
   <div class="container-fluid">
     <hr>
     <div class="container">
       <footer>
         <p class="fonsi12">
-          AroaDen || Roi Rodrigo || 2019
+          AroaDen || Roi Rodrigo || 2020
         </p>
       </footer>
     </div>
