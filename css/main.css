@@ -1,21 +1,32 @@
-body { background: #333333; }
+body { 
+  background-image: url("aaa.jpg")  !important;
+  background-repeat: repeat  !important;
+  font: 14px Ubuntu, sans-serif;
+  color: white !important;
+}
 
 html,body { height:100%; padding:0; margin:0; }
 
-body {
-    font: 16px Ubuntu, sans-serif;
-    line-height: 1.8;
-    color: #f5f6f7;
+.bg-Green { 
+  background-color: #1abc9c !important;
 }
 
-.bg-Green { 
-    background-color: #1abc9c; /* Green */
-    color: #ffffff;
+.panel-default {
+  border-color: #fdfcfc !important;
+}
+
+.panel {
+  background-color: #0b0b0b54 !important;
+  border: 2px solid transparent !important;
+}
+
+.panel-heading {
+  background-color: #442b2ba0 !important;
 }
 
 .videoWrapper {
     position: relative;
-    padding-bottom: 56.25%; /* 16:9 */
+    padding-bottom: 56.25%;
     padding-top: 25px;
     height: 0;
 }
@@ -40,9 +51,10 @@ body {
 .textder { text-align: right !important; }
 .textcent { text-align: center !important; }
 
-h1 span {  font-size: 30px !important;  }
-h2 span {  font-size: 24px !important;  }
-h3 span {  font-size: 18px !important;  }
+h1 {  font-size: 28px !important;  }
+h2 {  font-size: 24px !important;  }
+h3 {  font-size: 20px !important;  }
+h4 {  font-size: 18px !important;  }
 
 .fonsi46  {  font-size: 46px !important;  }
 .fonsi36  {  font-size: 36px !important;  }
@@ -63,10 +75,10 @@ h3 span {  font-size: 18px !important;  }
 .newscont { max-width: 300px !important;  }
 
 .carousel-indicators li {
-	width: 13px !important;
-	height: 13px !important;
-	border: 2px solid #1abc9c !important;
-	border-radius: 13px !important;
+  width: 13px !important;
+  height: 13px !important;
+  border: 2px solid #1abc9c !important;
+  border-radius: 13px !important;
 }
 
 .carousel-indicators .active {
@@ -84,7 +96,7 @@ a .icon-prev, a .icon-next {
     position: absolute !important;
     top: -6% !important;
     text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
-	color: black !important;
+  color: black !important;
     font-size: 18px !important;
 }
 
@@ -118,46 +130,38 @@ a:hover {
 
 .martopbo150 { margin-top: 150px !important; margin-bottom: 150px !important; }
 .martopbo100 { margin-top: 100px !important; margin-bottom: 100px !important; }
-.martopbo70 { margin-top: 70px; margin-bottom: 70px; }
-.martopbo50 { margin-top: 50px; margin-bottom: 50px; }
-.martopbo30 { margin-top: 30px; margin-bottom: 30px; }
-.martopbo10 { margin-top: 10px; margin-bottom: 10px; }
+.martopbo70 { margin-top: 70px !important; margin-bottom: 70px !important; }
+.martopbo50 { margin-top: 50px !important; margin-bottom: 50px !important; }
+.martopbo30 { margin-top: 30px !important; margin-bottom: 30px !important; }
+.martopbo10 { margin-top: 10px !important; margin-bottom: 10px !important; }
 
-.martopbo { margin-top: 140px; margin-bottom: 55px; }
-.marbot { margin-top: 140px; }
+.mar4 { margin: 4px !important; }
+.mar10 { margin: 10px !important; }
+.mar20 { margin: 20px !important; }
+.mar30 { margin: 30px !important; }
+.mar40 { margin: 40px !important; }
+.mar50 { margin: 50px !important; }
+.mar60 { margin: 60px !important; }
+.mar70 { margin: 70px !important; }
 
-
-.border2px { border: 2px solid #0cedde; }
-
-.topboxshadow { -webkit-box-shadow: 0px -8px 11px 1px rgba(0,0,0,0.75); -moz-box-shadow: 0px -8px 11px 1px rgba(0,0,0,0.75); box-shadow: 0px -8px 11px 1px rgba(0,0,0,0.75); }
-
-.mar4 { margin: 4px; }
-.mar10 { margin: 10px; }
-.mar20 { margin: 20px; }
-.mar30 { margin: 30px; }
-.mar40 { margin: 40px; }
-.mar50 { margin: 50px; }
-.mar60 { margin: 60px; }
-.mar70 { margin: 70px; }
-
-.pad4 { padding: 4px; }
-.pad6 { padding: 6px; }
-.pad10 { padding: 10px; }
-.pad20 { padding: 20px; }
-.pad30 { padding: 30px; }
-.pad40 { padding: 40px; }
-.pad60 { padding: 60px; }
-.pad80 { padding: 80px; }
-.pad110 { padding: 110px; }
+.pad4 { padding: 4px !important; }
+.pad6 { padding: 6px !important; }
+.pad10 { padding: 10px !important; }
+.pad20 { padding: 20px !important; }
+.pad30 { padding: 30px !important; }
+.pad40 { padding: 40px !important; }
+.pad60 { padding: 60px !important; }
+.pad80 { padding: 80px !important; }
+.pad110 { padding: 110px !important; }
 
 .fonbla { color: white !important; }
-.fuengrisoscu { color: rgb(20, 20, 20); }
+.fuengrisoscu { color: rgb(20, 20, 20) !important; }
 
 .bgblack { background-color: black !important; }
 .bgwi { background-color: white !important; }
 
 .bgblacktrans { 
-    background-color: #7777776b !important;
+    background-color: #777777c2 !important;
     border-radius: .25em !important;
 }
 
