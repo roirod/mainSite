@@ -7,6 +7,11 @@ body {
 
 html,body { height:100%; padding:0; margin:0; }
 
+.contwidth {
+  min-width: 258px !important;
+  max-width: 320px !important;
+}
+
 .bg-Green { 
   background-color: #1abc9c !important;
 }
